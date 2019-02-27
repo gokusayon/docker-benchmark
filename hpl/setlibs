@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH="`pwd`/lib/hansen;`pwd`/lib/rhel6;`pwd`/lib/rhel6/nemesis-gcc"

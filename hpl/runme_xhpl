@@ -1,0 +1,3 @@
+#!/bin/bash
+. setlibs
+OMP_NUM_THREADS=1 ./xhpl
