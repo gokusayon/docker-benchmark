@@ -1,8 +1,7 @@
 # HPL AMD64 Benchmark
 # - Executes the HPL (Linpack) benchmark for AMD 64-bit based machines running Docker containers
 
-FROM rhel7
-MAINTAINER Seth Cook <sethcook@purdue.edu>
+FROM richxsl/rhel7
 
 # Prep Directories
 RUN mkdir /hpl-output /hpl
